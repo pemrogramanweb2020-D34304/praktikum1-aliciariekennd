@@ -1,9 +1,39 @@
-# praktikum1
+<?php 
+$star=5;
+	for($a=1; $a<=$star; $a++){
+	for($b=1; $b<=$a; $b++){
+		echo "&nbsp";
+	}
+	for($c=$star; $c>=$a; $c-=1){
+		echo "*";
+	}
+	echo "<br>";
+	}
 
-Soal:
-Buatlah dengan menggunakan looping (bebas menggunakan for, while maupun do while),
-tampilkan bentuk piramida seperti pada gambar di dalam link ini.
+	$star=5;
+	for($a=1; $a<=$star; $a++){
+	for($i=1; $i<=$a; $i++){
+		echo " &nbsp";
+	}
+	for($c=$star; $c>=$a; $c-=1){
+		echo "*";
+	}
+	echo "<br>";
+	}
 
-https://scontent.fbdo9-1.fna.fbcdn.net/v/t1.0-9/119710073_10221172150606455_3611443616346618535_n.jpg?_nc_cat=101&_nc_sid=730e14&_nc_eui2=AeGtwGzTA54vqP72scaDm_clITT1lYrRCbghNPWVitEJuC6Mv-KdWL7mooN9fGk4Xsw&_nc_ohc=6kPtBUDYYJAAX8G8nuk&_nc_ht=scontent.fbdo9-1.fna&oh=049234af75a8047fb1f1eac2f16f430a&oe=5F8F8D35
+	$i = 10;
+for ($i = 5; $i >= 1; $i--) {
+  for ($j = 1; $j <= 1 - $i; $j++) {
+    echo " ";
+  }
+  for ($k = 1; $k < $i; $k++) {
+    echo "$k";
+  }
+  for ($l = $i; $l >= 1; $l--) {
+    echo "$l";
+  }
+  echo "<br>";
+}
+ ?>
        
        
